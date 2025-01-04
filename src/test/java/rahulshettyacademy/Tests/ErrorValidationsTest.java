@@ -22,7 +22,7 @@ public class ErrorValidationsTest extends TestBase{
 		loginPage.loginApplication("kiakivi@gmail.com", "Kiakiv@23");	
 		String errorMessage = loginPage.getErrorMessage();
 		Assert.assertEquals(errorMessage, "Incorrect email or password.");	
-		System.out.println("Adding few lines to check the git commands");
+		
 		System.out.println("Thanks for your helping hand");
 		System.out.println("Making changes on HS branch");
 	}
